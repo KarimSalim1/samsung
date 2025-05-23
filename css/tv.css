@@ -1,0 +1,112 @@
+main{
+    min-height: 70vh; 
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  .card {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  .img-container input[type="radio"] {
+    display: none;
+  }
+  
+  .img-container .imagenes img {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .img-container {
+    height: 300px;
+    position: relative;
+  }
+  
+  .img-container input#tv1:checked ~ .imagenes .img-tv1,
+  .img-container input#tv2:checked ~ .imagenes .img-tv2,
+  .img-container input#tv3:checked ~ .imagenes .img-tv3,
+  .img-container input#tv4:checked ~ .imagenes .img-tv4  {
+    display: block;
+    position: relative;
+  }
+  
+  .img-container input#tv5:checked ~ .imagenes .img-tv5,
+  .img-container input#tv6:checked ~ .imagenes .img-tv6,
+  .img-container input#tv7:checked ~ .imagenes .img-tv7,
+  .img-container input#tv8:checked ~ .imagenes .img-tv8  {
+    display: block;
+    position: relative;
+  }
+  
+  
+  .color-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .color-selector label {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #999;
+  }
+  
+  .almacenamiento button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .almacenamiento button:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .precio {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+  
+  .comprar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .comprar:hover {
+    background-color: blue;
+    color: white;
+  }
+  

@@ -1,0 +1,66 @@
+
+.contacto {
+    padding: 60px 20px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    min-height: 100vh; 
+}
+
+.contacto h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+
+#cardwhatsapp, #cardfacebook, #cardtwitter {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+}
+
+#cardwhatsapp h3, #cardfacebook h3, #cardtwitter h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#cardwhatsapp img, #cardfacebook img, #cardtwitter img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#cardwhatsapp p, #cardfacebook p, #cardtwitter p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#cardwhatsapp button, #cardfacebook button, #cardtwitter button {
+    background-color: #2053df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cardwhatsapp button:hover, #cardfacebook button:hover, #cardtwitter button:hover {
+    background-color: #333;
+}
+
